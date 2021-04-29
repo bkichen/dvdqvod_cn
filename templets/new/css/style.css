@@ -1,0 +1,495 @@
+/*公用*/
+.g-tit1{
+    overflow: hidden;
+    line-height: 40px;
+    background-color: #F7F7FF;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+.g-tit1 a{
+    display: block;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #106492;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.g-tit1 a:hover{
+    color: #f00;
+}
+.g-tit1 h3{
+    overflow: hidden;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 0;
+    line-height: 40px;
+    font-weight: bold;
+}
+/*面包屑*/
+.cur{
+    overflow: hidden;
+    border: 1px solid #bfe4ff;
+    background-color: #f7f7ff;
+    line-height: 25px;
+    padding: 0 10px;
+    font-size: 12px;
+    color: #333;
+}
+.cur a{
+    color: #106492;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.cur a:hover{
+    color: #f00;
+}
+/*页码*/
+.pages{
+    overflow: hidden;
+    border: 1px solid #bfe4ff;
+    background-color: #f7f7ff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.pages ul{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+}
+.pages li{
+    float: left;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #106492;
+}
+.pages li a{
+    display: block;
+    line-height: 30px;
+    color: #106492;
+    padding: 0 5px;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.pages li span{
+    padding: 0 5px;
+}
+.pages li a:hover,.pages li.on a{
+    color: #f00;
+}
+/*首页*/
+.m-pic1{
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.m-pic1 a{
+    display: block;
+}
+.m-pic1 img{
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+.ul-imgtxt1{
+    overflow: hidden;
+    margin: 0 -20px;
+}
+.ul-imgtxt1 li{
+    padding: 0 20px;
+    margin-bottom: 15px;
+	display:inline-block\0;
+	float:left\0;
+}
+.ul-imgtxt1 li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.ul-imgtxt1 .pic{
+    position: relative;
+    height: 0;
+    padding-top: 121.5%;
+    overflow: hidden;
+    border: 1px #ccc solid;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.ul-imgtxt1 .pic img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2px;
+}
+.ul-imgtxt1 a:hover .pic{
+    border-color: #f00;
+}
+.ul-imgtxt1 .txt{
+    overflow: hidden;
+    font-size: 12px;
+    color: #ff0000;
+    line-height: 16px;
+    text-align: center;
+}
+.ul-imgtxt1 .txt h3{
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 0;
+    margin-top: 2px;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.ul-imgtxt1 a:hover .txt h3{
+    color: #f00;
+}
+.m-link{
+    overflow: hidden;
+    margin: 20px 0;
+    background-color: #f3f3f3;
+    border: 1px #d3d3d3 solid;
+}
+.m-link .tit{
+    overflow: hidden;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: #737373;
+    line-height: 32px;
+    padding: 14px 30px 0 20px;
+    border-bottom: solid 1px #ededed;
+    margin-bottom: 5px;
+}
+.m-link .txt{
+    overflow: hidden;
+    padding: 0 30px 5px 20px;
+    font-size: 12px;
+    line-height: 21px;
+    color: #333;
+}
+.m-link .txt a{
+    color: #646464;
+    padding: 4px 3px;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.m-link .txt a:hover{
+    color: #f00;
+}
+.m-link .txt p{
+    margin-bottom: 0;
+}
+/*列表*/
+.m-list1{
+    overflow: hidden;
+    margin: 30px 0 0;
+}
+.m-list1>div{
+    padding: 0;
+}
+.snav{
+    overflow: hidden;
+    border: 1px solid #dde2e5;
+    background-color: #f3f8fe;
+    margin-bottom: 8px;
+}
+.snav h3{
+    font-size: 14px;
+    padding-left: 15px;
+    line-height: 25px;
+    color: #106492;
+    font-weight: bold;
+    border-bottom: 1px #dde2e5 solid;
+    margin-bottom: 0;
+}
+.snav ul{
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.snav li{
+    overflow: hidden;
+    padding: 10px 5px 10px 10px;
+    line-height: 20px;
+    color: #106492;
+    border-bottom: 1px #ccc dotted;
+}
+.snav li:last-child{
+    border-bottom: none;
+}
+.snav li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.snav li span{
+    display: block;
+    float: left;
+    width: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #c7d0d9;
+    margin-right: 10px;
+}
+.snav li h4{
+    overflow: hidden;
+    font-size: 12px;
+    color: #106492;
+    line-height: 20px;
+    margin-bottom: 0;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.snav li h4 em{
+    color: #00f;
+    font-style: normal;
+}
+.snav li a:hover h4{
+    color: #f00;
+}
+.snav li a:hover h4 em{
+    color: #f00;
+}
+.m-film{
+    overflow: hidden;
+    padding-left: 10px;
+}
+.ul-imgtxt2{
+    overflow: hidden;
+    margin: 20px -5px 5px;
+}
+.ul-imgtxt2 li{
+    overflow: hidden;
+    padding: 0 5px;
+    margin-bottom: 24px;
+}
+.ul-imgtxt2 .pic{
+    overflow: hidden;
+    float: left;
+    width: 126px;
+    height: 156px;
+    margin-right: 10px;
+}
+.ul-imgtxt2 .pic a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    border: 1px #ccc solid;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.ul-imgtxt2 .pic img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.ul-imgtxt2 .pic a:hover{
+    border-color: #f00;
+}
+.ul-imgtxt2 .txt{
+    overflow: hidden;
+    font-size: 12px;
+    color: #333;
+    line-height: 18px;
+}
+.ul-imgtxt2 .txt h3{
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.ul-imgtxt2 .txt h3 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #f00;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.ul-imgtxt2 .txt h3 a em{
+    color: #106492;
+    font-style: normal;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.ul-imgtxt2 .txt h3 a:hover em{
+    color: #f00;
+}
+.ul-imgtxt2 .txt p{
+    height: 72px;
+    overflow: hidden;
+}
+.ul-imgtxt2 .txt span{
+    display: block;
+    font-size: 12px;
+    color: #0067b0;
+}
+.ul-imgtxt2 .txt span a{
+    color: #0067b0;
+    margin-left: 5px;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+.ul-imgtxt2 .txt span a:hover{
+    color: #f00;
+}
+/*详情页*/
+.m-details{
+    overflow: hidden;
+    border: 1px #00f solid;
+    margin-bottom: 20px;
+}
+.m-text1{
+    overflow: hidden;
+}
+.m-text1 h1{
+    font-size: 16px;
+    color: #106492;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 11px;
+    font-weight: bold;
+}
+.m-text1 .info{
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    line-height: 14px;
+    margin-top: 5px;
+}
+.m-text1 .info span{
+    margin: 0 5px;
+}
+.m-text1 .txt{
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.m-text1 .txt p{
+    margin-bottom: 0;
+}
+.m-text1 .txt img{
+    display: block;
+}
+.m-text1 .txt p em{
+    display: block;
+    float: left;
+    font-style: normal;
+    margin-right: 10px;
+}
+.m-text1 .txt p span{
+    display: block;
+    overflow: hidden;
+}
+.m-text1 .bot{
+    overflow: hidden;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.m-text1 .bot h3{
+    font-size: 12px;
+    color: #f00;
+    line-height: 16px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.m-text1 .bot h3 i{
+    display: inline-block;
+    vertical-align: middle;
+    width: 19px;
+    height: 17px;
+    background: url(../images/pic53.jpg) no-repeat center center;
+    margin-top: -2px;
+    margin-left: 5px;
+}
+.m-text1 .bot a{
+    display: block;
+    padding: 5px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #106492;
+    background-color: #ffb;
+    border: 1px #ff8c00 solid;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+	margin: 5px 1px 0 0;
+}
+.m-text1 .bot ul{
+	width:100%;
+	height:150px;
+    display: block;
+	overflow:auto;
+	overflow-x:hidden;
+	position:relative;
+}
+.m-text1 .bot ul li{
+    padding: 5px;
+	float:left;
+}
+.m-text1 .bot a:hover{
+    color: #f00;
+}
+.m-text1 .bot > a{display:none!important}
+.m-text1 .tishi{
+    text-align: center;
+    line-height: 35px;
+    font-size: 13px;
+    color: #f00;
+    font-weight: bold;
+    border-top: 2px solid #d1dbe7;
+    border-bottom: 2px solid #d1dbe7;
+    margin-bottom: 10px;
+}
